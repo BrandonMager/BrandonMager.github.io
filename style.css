@@ -1,0 +1,175 @@
+body{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background:#b4cede;
+}
+.main-navigation {
+    background: #000721;
+    clear: both;
+    display: block;
+    padding: 0.8889em 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+ul {
+    list-style-type: disc;
+    justify-content: center;
+}
+.main-navigation ul {
+    margin: 0;
+}
+ol, ul {
+    list-style: none;
+}
+
+.main-navigation ul li {
+    border-bottom: none;
+    display: inline-block;
+    padding: 0.75em 1em 0.75em 0;
+    position: relative;
+    text-align: center;
+}
+
+.main-navigation a {
+    color: #45898c;
+    display: inline-block;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 2;
+    letter-spacing: .03em;
+    padding: 0.3889em 0 0.3889em 1.5556em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.wrapper {
+    display: grid;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #b4cede;
+    margin: 20px;
+  }
+  
+.one,.two,.three,.four,.five,.six{
+    background-color: #5740d6;
+    
+    color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+.site-branding {
+    background-image: url(https://www.vhsengineers.com/wp-content/uploads/2019/05/cropped-Venice-High-1.jpg);
+}
+.site-branding {
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 7em 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+h1 {
+    text-align: center;
+}
+.one h1{
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.left{
+    overflow: hidden;
+}
+
+.daily-date{
+    width: 190px;
+    float: right;
+    margin-top: -330px;
+}
+
+.venice-date{
+    font-size: 25px;
+}
+
+.two{
+    text-align: center;
+}
+
+.purple{
+    margin-left: 60px;
+}
+
+.site-title{
+    border-color:#0080d6;
+    display: table;
+    font-family: "Alegreya", Georgia, serif;
+    line-height: 1.25;
+    letter-spacing: .03em;
+    margin: 0 auto;
+    vertical-align: baseline;
+    max-width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 0;
+    
+}
+.site-title a {
+    border: 10px solid currentColor;
+    display: block;
+    padding: 0 1em;
+    color: #0080d6;
+    text-decoration: none;
+    font-size: 50px;
+}
+.site-footer {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 1.7778em 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+
+  }
+
+@media (min-width: 2200px){
+    .site-footer {
+        background: #000;
+        color: #fff;
+        font-size: 14px;
+        font-size: 1.4rem;
+        padding: 1.7778em 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        margin-top: auto;
+    }
+}
