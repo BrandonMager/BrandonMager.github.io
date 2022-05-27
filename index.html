@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link href = "style.css" rel = "stylesheet" type="text/css">
+        <script src = "script.js"></script>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="stylesheet" id="argent-fonts-css" href="https://fonts.googleapis.com/css?family=Cabin%3A500%2C700%2C500italic%2C700italic%7CAlegreya%3A400%2C700%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+    </head>
+    <body>
+     <nav id="site-navigation" class="main-navigation" role="navigation">
+		<div id="primary-menu" class="menu">
+            <ul aria-expanded="false" class=" nav-menu">
+            <li class="page_item page-item-72"><a href="https://www.vhsengineers.com/blog/">Blog</a></li>
+            <li class="page_item page-item-70"><a href="https://www.vhsengineers.com/current-projects/">Current Projects</a></li>
+            <li class="page_item page-item-61"><a href="https://www.vhsengineers.com/other-engineering-courses/">Other Engineering Courses</a></li>
+            <li class="page_item page-item-35"><a href="https://www.vhsengineers.com/projects/">Practice Page</a></li>
+            <li class="page_item page-item-35"><a href="https://www.vhsengineers.com/station">Weather</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "site-branding">
+        <h1 class = "site-title">
+            <a href="http://www.vhsengineers.com/">Venice High School Engineering Weather Station (BETA)</a>
+        </h1>
+    </div>
+    
+    <!--
+    <div id='PurpleAirWidget_113678_module_AQI_conversion_C0_average_10_layer_standard'>Loading PurpleAir Widget...</div>
+<script src='https://www.purpleair.com/pa.widget.js?key=6JJ4D8BYWMM0PVCE&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_113678_module_AQI_conversion_C0_average_10_layer_standard'></script>
+-->   
+<div class="wrapper">
+    <div class="one">
+        <section class = "left">
+        <h1 class = "weather-place">Weather</h1>
+        <p>Average Temperature:<section class="temp"></section></p>
+        <img src="" class = "icon"/>
+        <p class = "description"></p>
+        <p class = "humidity"></p>
+        <p class = "wind"></p>
+        <p class = "min"></p>
+        <p class = "update"></p>
+        </section>
+        <section class = "daily-date">
+            <p>CURRENT DATE:</p>
+            <section class = "venice-date"></section>
+        </section>
+    </div>
+    <div class="two" id = "purpleair">
+        <h1 class = "airq">Outdoor Air Quality</h1>
+        <section class = "purple" id='PurpleAirWidget_113678_module_AQI_conversion_C0_average_10_layer_standard'></section>
+<script src='https://www.purpleair.com/pa.widget.js?key=6JJ4D8BYWMM0PVCE&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_113678_module_AQI_conversion_C0_average_10_layer_standard'></script>
+    </div>
+    <div class="three">
+        <h1 class = "forecast">Daily Forecast for Marina Del Rey</h1>
+        <p class = "first-forecast"></p>
+        <p class = "second-forecast"></p>
+        <p class = "third-forecast"></p>
+        <p class = "fourth-forecast"></p>
+        <p class = "fifth-forecast"></p>
+
+    </div>
+    <div class="four">
+        <h1>Weather Station for VHS (BETA)</h1>
+        <p class = "p-temp"></p>
+        <p class = "p-hum"></p>
+        <p>Note: Data is gathered from PurpleAir JSON file. Data may be inaccurate.</p>
+        <p class = "p-update"></p>
+    </div>
+    <div class="five">
+        <h1>Indoor Air Quality</h1>
+        <div class = "purple" id='PurpleAirWidget_124315_module_AQI_conversion_C0_average_10_layer_standard'>Loading PurpleAir Widget...</div>
+<script src='https://www.purpleair.com/pa.widget.js?key=S185W2XKDFZTHXLG&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_124315_module_AQI_conversion_C0_average_10_layer_standard'></script>
+    </div>
+    <div class="six">
+        <h1>Indoor Station for VHS (BETA)</h1>
+        <p class = "i-temp"></p>
+        <p class = "i-hum"></p>
+        <p>Note: Data is gathered from PurpleAir JSON file. Data may be inaccurate.</p>
+        <p class = "i-update"></p>
+        
+    </div>
+  </div>
+  <footer class = "site-footer">
+    <p>A Venice High School Project. Proudly sponsored by Mr. Rojo and STEMM Magnet </p>
+    <p>Made by <i>Brandon Soto Garcia</i> and <i>Anthony Estrada</i></p>
+  </footer>
+</body>
+</html>
